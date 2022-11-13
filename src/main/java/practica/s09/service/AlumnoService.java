@@ -1,6 +1,8 @@
 package practica.s09.service;
 
-import antlr.collections.List;
+
+import java.util.List;
+
 import practica.s09.model.Alumno;
 
 public interface AlumnoService {

@@ -6,24 +6,18 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-import practica.s09.controller.Integer;
-import practica.s09.controller.String;
 @Entity
 @Table(name="alumno")
 public class Alumno {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Integer idEstudiante;
+	private Integer idAlumno;
 	private String nombre;
 	private String apellido;
+
 	
-	public Integer getIdEstudiante() {
-		return idEstudiante;
-	}
-	public void setIdEstudiante(Integer idEstudiante) {
-		this.idEstudiante = idEstudiante;
-	}
+	
 	public String getNombre() {
 		return nombre;
 	}
