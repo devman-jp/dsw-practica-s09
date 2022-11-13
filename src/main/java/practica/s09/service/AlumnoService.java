@@ -9,7 +9,7 @@ public interface AlumnoService {
 	void guardar(Alumno alumno);
 	void actualizar(Alumno alumno);
 	void eliminar(Integer id);
-	List<Alumno> listar();
+	java.util.List<Alumno> listar();
 	Alumno obtener(Integer id);
 
 }
