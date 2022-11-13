@@ -1,0 +1,2 @@
+INSERT INTO usuarios(usuario, contrasenia, rol) VALUES ('profesor', '$2a$12$BtCRgdanGPUG5DNcRiYLz.odE5JMnyXkwkbwE3OZ7QONdGPAzrsty', 'ROLE_PROFESOR');
+INSERT INTO usuarios(usuario, contrasenia, rol) VALUES ('alumno', '$2a$12$DNv8C8Ts1mXAsKhjbywinuSLJfiaYWUsyWsOD0NFnGuhO9u5zGgdq', 'ROLE_ALUMNO');
