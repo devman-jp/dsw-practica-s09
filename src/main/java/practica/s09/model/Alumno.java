@@ -15,9 +15,12 @@ public class Alumno {
 	private Integer idAlumno;
 	private String nombre;
 	private String apellido;
-
-	
-	
+	public Integer getIdAlumno() {
+		return idAlumno;
+	}
+	public void setIdAlumno(Integer idAlumno) {
+		this.idAlumno = idAlumno;
+	}
 	public String getNombre() {
 		return nombre;
 	}
@@ -30,5 +33,9 @@ public class Alumno {
 	public void setApellido(String apellido) {
 		this.apellido = apellido;
 	}
+
+	
+	
+	
 
 }

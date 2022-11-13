@@ -54,7 +54,7 @@ public class AlumnoController {
 	@RequestMapping(path = "/editar", method = RequestMethod.PUT)
 	public ResponseEntity<Void> editar(@RequestBody Alumno alumno){
 		
-		Alumno alumnoFounded  = alumnoService.obtener(alumno.getIdEstudiante());
+		Alumno alumnoFounded  = alumnoService.obtener(alumno.getIdAlumno());
 		
 		if( alumnoFounded != null) {
 			alumnoService.actualizar(alumno);
